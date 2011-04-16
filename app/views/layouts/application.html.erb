@@ -9,7 +9,7 @@
 	<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen '%>
 	<%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
 	<!--[if lt IE8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
-	<% stylesheet_link_tag 'custom', :media => 'screen' %>
+	<%= stylesheet_link_tag 'custom', :media => 'screen' %>
   </head>
   <body>
 	<div class = "container">
@@ -26,6 +26,7 @@
 		<section class = "round">
 			<%= yield %>
 		</section>
+	</div>
   </body>
 </html>
 	
